@@ -205,51 +205,6 @@ The research experimentally evaluates:
 
 ---
 
-# Repository Structure
-
-```
-C-ASA-Lab/
-│
-├── docs/
-│   ├── literature/
-│   ├── diagrams/
-│   ├── thesis/
-│   └── references/
-│
-├── experiments/
-│   ├── experiment01/
-│   ├── experiment02/
-│   ├── experiment03/
-│   ├── ...
-│   └── experiment12/
-│
-├── scripts/
-│   ├── automation/
-│   ├── topology/
-│   └── utilities/
-│
-├── controller/
-│   └── ryu/
-│
-├── casa/
-│   ├── reasoning/
-│   ├── planning/
-│   ├── memory/
-│   ├── communication/
-│   └── decision_engine/
-│
-├── topology/
-│
-├── datasets/
-│
-├── results/
-│
-├── README.md
-└── LICENSE
-```
-
----
-
 # Research Contributions
 
 The proposed framework introduces:
@@ -339,16 +294,6 @@ The associated thesis, figures, documentation, and written content remain the in
 Cyber Security Researcher
 
 Bachelor of Technology (Cyber Security)
-
-Research Interests
-
-- Software Defined Networking
-- Autonomic Networking
-- Agentic Artificial Intelligence
-- Multi-Agent Systems
-- Network Security
-- Intelligent Network Management
-- Autonomous Cyber Defense
 
 ---
 
