@@ -79,39 +79,6 @@ Each phase introduces new capabilities that eventually lead to the proposed Cogn
 
 ---
 
-# Laboratory Infrastructure
-
-All experiments are conducted inside a dedicated Ubuntu Server virtual machine running in VMware Workstation.
-
-```
-Ubuntu Server
-│
-├── Remote Access
-│     ├── OpenSSH
-│     └── VMware Tools
-│
-├── Networking
-│     ├── Mininet
-│     ├── Open vSwitch
-│     ├── FRRouting
-│     ├── bridge-utils
-│     └── iptables
-│
-├── Development
-│     ├── Python 3
-│     ├── pip
-│     ├── Git
-│     └── build-essential
-│
-└── Analysis
-      ├── tcpdump
-      ├── traceroute
-      ├── nmap
-      ├── iperf3
-      └── Wireshark CLI
-```
-
-This standardized environment provides a reproducible research platform for all experiments.
 
 ---
 
