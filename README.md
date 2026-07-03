@@ -1,55 +1,173 @@
-# Cognitive ASA (C-ASA) Research Laboratory
+# Cognitive Autonomic Service Agent (C-ASA) Research Laboratory
 
-> Research implementation of a **Cognitive Extension of the Autonomic Networking Integrated Model and Approach (ANIMA)** for intelligent, autonomous, and AI-driven network management.
+> **Research implementation of a Cognitive Extension of the Autonomic Networking Integrated Model and Approach (ANIMA) using Agentic Artificial Intelligence for intelligent, autonomous, and context-aware network management.**
 
 ![Status](https://img.shields.io/badge/Status-Active%20Research-blue)
-![Research](https://img.shields.io/badge/Type-Research%20Project-success)
-![Platform](https://img.shields.io/badge/Platform-GNS3-orange)
+![Research](https://img.shields.io/badge/Type-Bachelor%20Research-success)
+![Platform](https://img.shields.io/badge/Platform-GNS3%20%7C%20Ubuntu-orange)
 ![Language](https://img.shields.io/badge/Python-3.x-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## Overview
+# Overview
 
-Modern computer networks have become increasingly complex due to the rapid growth of cloud computing, Software Defined Networking (SDN), Internet of Things (IoT), edge computing, and large-scale distributed infrastructures. While the **Autonomic Networking Integrated Model and Approach (ANIMA)** introduced self-managing networking concepts through Autonomic Service Agents (ASAs), current implementations remain largely rule-based and lack cognitive reasoning, contextual understanding, and adaptive decision-making.
+Modern computer networks have evolved from manually configured infrastructures to programmable and self-managing systems. While the **Autonomic Networking Integrated Model and Approach (ANIMA)** introduced autonomic networking through Autonomic Service Agents (ASAs), existing implementations remain primarily rule-based and lack intelligent reasoning, adaptive planning, semantic collaboration, and contextual decision-making.
 
-This research introduces the **Cognitive Autonomic Service Agent (C-ASA)**, a novel architecture that extends traditional ANIMA by integrating Agentic Artificial Intelligence, Large Language Models (LLMs), semantic Agent-to-Agent (A2A) communication, and intelligent policy reasoning to create autonomous, self-adaptive, and context-aware network management systems.
+This research proposes a **Cognitive Autonomic Service Agent (C-ASA)** that extends traditional ANIMA by integrating **Agentic Artificial Intelligence**, **Large Language Models (LLMs)**, and **Semantic Agent-to-Agent (A2A) Communication** to enable autonomous, collaborative, and intelligent network management.
 
-This repository serves as the official implementation and experimental laboratory supporting the research.
-
----
-
-## Research Objectives
-
-- Design and implement a Cognitive Extension of ANIMA.
-- Develop an intelligent Cognitive Autonomic Service Agent (C-ASA).
-- Study the evolution from traditional networking to Software Defined Networking and autonomic networking.
-- Evaluate autonomous decision-making using Agentic AI.
-- Implement semantic Agent-to-Agent communication between distributed cognitive agents.
-- Compare Traditional Networks, SDN, ANIMA, and C-ASA through experimental analysis.
-- Build a reproducible research environment using GNS3.
+This repository serves as the official implementation, experimental laboratory, and documentation supporting the undergraduate research.
 
 ---
 
-## Research Domains
+# Research Objectives
 
-This work combines multiple research disciplines including:
+- Design a Cognitive Extension of ANIMA
+- Develop the Cognitive Autonomic Service Agent (C-ASA)
+- Study the evolution of network management
+- Understand Traditional Networking
+- Understand Software Defined Networking (SDN)
+- Explore Autonomic Networking concepts
+- Integrate Agentic AI into network management
+- Implement Semantic Agent-to-Agent Communication
+- Evaluate intelligent autonomous decision making
+- Compare Traditional Networks, SDN, ANIMA and C-ASA
+
+---
+
+# Research Domains
+
+This work combines multiple research disciplines.
 
 - Computer Networks
 - Software Defined Networking (SDN)
 - Autonomic Networking (ANIMA)
 - Artificial Intelligence
 - Agentic AI
+- Large Language Models
 - Multi-Agent Systems
-- Large Language Models (LLMs)
-- Network Automation
 - Distributed Systems
+- Network Automation
 - Cyber Security
 
 ---
 
-## Experimental Goals
+# Research Evolution
+
+The implementation follows the historical evolution of networking technologies.
+
+```
+Traditional Networking
+        │
+        ▼
+Network Automation
+        │
+        ▼
+Software Defined Networking (SDN)
+        │
+        ▼
+Autonomic Networking (ANIMA)
+        │
+        ▼
+Cognitive Networking
+        │
+        ▼
+Cognitive Autonomic Service Agent (C-ASA)
+```
+
+Each phase introduces new capabilities that eventually lead to the proposed Cognitive ASA architecture.
+
+---
+
+# Laboratory Infrastructure
+
+All experiments are conducted inside a dedicated Ubuntu Server virtual machine running in VMware Workstation.
+
+```
+Ubuntu Server
+│
+├── Remote Access
+│     ├── OpenSSH
+│     └── VMware Tools
+│
+├── Networking
+│     ├── Mininet
+│     ├── Open vSwitch
+│     ├── FRRouting
+│     ├── bridge-utils
+│     └── iptables
+│
+├── Development
+│     ├── Python 3
+│     ├── pip
+│     ├── Git
+│     └── build-essential
+│
+└── Analysis
+      ├── tcpdump
+      ├── traceroute
+      ├── nmap
+      ├── iperf3
+      └── Wireshark CLI
+```
+
+This standardized environment provides a reproducible research platform for all experiments.
+
+---
+
+# Experimental Roadmap
+
+The implementation is divided into five progressive phases.
+
+## Phase 1 — Traditional Networking
+
+- Traditional Network Architecture
+- Static Routing
+- Dynamic Routing (OSPF)
+- Network Performance Analysis
+
+---
+
+## Phase 2 — Network Automation
+
+- Python Network Automation
+- Remote Device Configuration
+- Automated Network Management
+
+---
+
+## Phase 3 — Software Defined Networking
+
+- Open vSwitch
+- OpenFlow
+- SDN Architecture
+- Ryu Controller
+- Flow Rule Management
+
+---
+
+## Phase 4 — Autonomic Networking
+
+- Policy-Based Networking
+- ANIMA Concepts
+- Autonomic Service Agent (ASA)
+- Agent Discovery
+- Policy Negotiation
+
+---
+
+## Phase 5 — Cognitive Networking
+
+- Cognitive Autonomic Service Agent (C-ASA)
+- Agentic AI Integration
+- Semantic Agent Communication
+- Risk-Aware Decision Making
+- Intelligent Policy Reasoning
+- Experimental Evaluation
+
+---
+
+# Experimental Objectives
 
 The research experimentally evaluates:
 
@@ -57,109 +175,220 @@ The research experimentally evaluates:
 - Routing and Switching
 - Network Automation
 - Software Defined Networking
+- OpenFlow Control
+- Autonomic Networking
 - Autonomic Service Agents
 - Cognitive Service Agents
-- Autonomous Policy Management
 - Semantic Agent Communication
-- Intelligent Network Decision Making
-- Comparative Performance Analysis
+- Autonomous Decision Making
+- Performance Comparison
 
 ---
 
-## Technologies
+# Technologies
+
+## Networking
 
 - GNS3
+- Mininet
 - Cisco IOS
-- Python
-- Ubuntu Linux
 - Open vSwitch
+- FRRouting
+- OpenFlow
+- Bridge Utilities
+- iptables
+
+---
+
+## Development
+
+- Python 3
+- Git
+- pip
+- build-essential
+- Paramiko
+- Netmiko
+- REST APIs
+
+---
+
+## SDN
+
 - OpenFlow
 - Ryu Controller
+
+---
+
+## Analysis
+
 - Wireshark
-- Docker
-- Netmiko
-- Paramiko
-- REST APIs
+- tcpdump
+- traceroute
+- nmap
+- iperf3
+
+---
+
+## AI
+
 - Large Language Models (LLMs)
+- Agentic AI
+- Semantic Agent Communication
+- Multi-Agent Systems
 
 ---
 
-## Research Contributions
+# Repository Structure
 
-The proposed framework introduces:
-
-- Cognitive Autonomic Service Agent (C-ASA)
-- AI-driven Network Reasoning
-- Semantic Agent-to-Agent Communication
-- Intelligent Policy Negotiation
-- Autonomous Decision Engine
-- Context-Aware Network Management
-- Risk-Aware Adaptive Networking
-- Agentic AI Integration for Network Operations
-
----
-
-## Research Status
-
-Current Phase:
-
-- Literature Review
-- ANIMA Architecture
-- Autonomic Service Agent (ASA)
-- GNS3 Experimental Environment
-- Cognitive ASA Development
-- Experimental Evaluation
-
----
-
-## Citation
-
-If you use this repository for academic or research purposes, please cite the associated research work once published.
-
-```text
-Ashrith Peechara,
-"Cognitive Extension of ANIMA using Agentic Artificial Intelligence
-for Autonomous Network Management",
-Bachelor of Technology Thesis,
-Department of Cyber Security.
+```
+C-ASA-Lab/
+│
+├── docs/
+│   ├── literature/
+│   ├── diagrams/
+│   ├── thesis/
+│   └── references/
+│
+├── experiments/
+│   ├── experiment01/
+│   ├── experiment02/
+│   ├── experiment03/
+│   ├── ...
+│   └── experiment12/
+│
+├── scripts/
+│   ├── automation/
+│   ├── topology/
+│   └── utilities/
+│
+├── controller/
+│   └── ryu/
+│
+├── casa/
+│   ├── reasoning/
+│   ├── planning/
+│   ├── memory/
+│   ├── communication/
+│   └── decision_engine/
+│
+├── topology/
+│
+├── datasets/
+│
+├── results/
+│
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## License
+# Research Contributions
 
-This project is released under the **MIT License**.
+The proposed framework introduces:
 
-The source code is available for educational and research purposes.
-
-The associated thesis, documentation, figures, and written content remain the intellectual property of the author unless explicitly stated otherwise.
+- Cognitive Autonomic Service Agent (C-ASA)
+- AI-Driven Network Reasoning
+- Semantic Agent-to-Agent Communication
+- Autonomous Planning Engine
+- Intelligent Policy Negotiation
+- Context-Aware Networking
+- Risk-Aware Decision Engine
+- Agentic AI for Network Operations
+- Cognitive Extension of ANIMA
 
 ---
 
-## Author
+# Current Research Status
+
+Current progress includes:
+
+- Literature Review
+- Traditional Networking
+- Software Defined Networking
+- ANIMA Study
+- Autonomic Service Agent Analysis
+- Laboratory Environment
+- Experimental Design
+- Cognitive ASA Architecture
+
+Upcoming work:
+
+- C-ASA Implementation
+- Semantic Communication Layer
+- Experimental Evaluation
+- Performance Analysis
+- Thesis Completion
+
+---
+
+# Future Work
+
+Future extensions include:
+
+- Multi-Controller SDN
+- Distributed Cognitive Agents
+- Reinforcement Learning
+- Intent-Based Networking
+- Zero Trust Integration
+- Cloud-Native Deployment
+- Kubernetes Networking
+- Edge Computing
+- Digital Twin Networks
+
+---
+
+# Citation
+
+If this repository contributes to your research, please cite the associated thesis after publication.
+
+```text
+Ashrith Peechara
+
+"Cognitive Autonomic Networking:
+Extending ANIMA Through Agentic AI and Semantic Agent-to-Agent Communication"
+
+Bachelor of Technology Thesis
+
+Department of Cyber Security
+```
+
+---
+
+# License
+
+This repository is released under the **MIT License**.
+
+The implementation is intended for educational and research purposes.
+
+The associated thesis, figures, documentation, and written content remain the intellectual property of the author unless explicitly stated otherwise.
+
+---
+
+# Author
 
 **Ashrith Peechara**
 
 Cyber Security Researcher
 
-B.Tech in Cyber Security
+Bachelor of Technology (Cyber Security)
 
-Research Interests:
+Research Interests
 
-- Network Security
 - Software Defined Networking
+- Autonomic Networking
 - Agentic Artificial Intelligence
 - Multi-Agent Systems
-- Autonomic Networking
-- Cyber Defense
+- Network Security
 - Intelligent Network Management
+- Autonomous Cyber Defense
 
 ---
 
-## Acknowledgements
+# Acknowledgements
 
-This research is conducted as part of an undergraduate research project exploring the integration of Artificial Intelligence with autonomic networking architectures for next-generation autonomous network management systems.
+This research is conducted as part of an undergraduate research project exploring the integration of Artificial Intelligence with autonomic networking architectures for next-generation autonomous network management.
 
 ---
 
-> *"From programmable networks to cognitive networks — enabling autonomous infrastructures through intelligent reasoning and collaborative agents."*
+> **"From programmable networks to cognitive networks — enabling autonomous infrastructures through intelligent reasoning and collaborative agents."**
